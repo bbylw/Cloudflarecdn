@@ -38,16 +38,17 @@
    - 按照提示配置 DNS 记录
    - 等待 SSL 证书自动配置完成
 
+## 项目结构
 
-```
+```text
 .
 ├── functions/
-│   ├── middleware.ts        # 代理逻辑实现
-│   └── routes.json         # 路由规则配置
-├── .gitignore              # Git 忽略文件配置
-├── package.json            # 项目依赖配置
-├── tsconfig.json           # TypeScript 配置
-└── README.md              # 项目说明文档
+│   ├── _middleware.ts      # 代理逻辑实现
+│   └── _routes.json       # 路由规则配置
+├── .gitignore             # Git 忽略文件配置
+├── package.json           # 项目依赖配置
+├── tsconfig.json          # TypeScript 配置
+└── README.md             # 项目说明文档
 ```
 
 ## 工作原理
