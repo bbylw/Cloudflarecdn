@@ -47,6 +47,7 @@
 ├── package.json # 项目依赖配置
 ├── tsconfig.json # TypeScript 配置
 └── README.md # 项目说明文档
+```
 
 ## 工作原理
 
