@@ -30,7 +30,7 @@
    - 在项目设置中找到 "Environment variables"
    - 添加变量：
      - 变量名：`TARGET_HOSTNAME`
-     - 值：目��域名（例如：`api.github.com`）
+     - 值：目标域名（例如：`api.github.com`）
    - 可以为不同环境（预览/生产）设置不同的目标域名
 
 4. **（可选）绑定自定义域名**
